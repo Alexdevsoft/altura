@@ -8,7 +8,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Quantas pessoas ser„o digitadas? ");
+		System.out.print("Quantas pessoas ser√£o digitadas? ");
 		int n = sc.nextInt();
 		
 		String[] nomes = new String[n];
@@ -32,7 +32,7 @@ public class Program {
 		double mediaAltura = soma / n;
 		
 		System.out.println();
-		System.out.printf("Altura mÈdia: %.2f%n", mediaAltura);
+		System.out.printf("Altura m√©dia: %.2f%n", mediaAltura);
 		
 		int count = 0;
 		for(int i=0; i<n; i++) {
@@ -52,7 +52,6 @@ public class Program {
 		}
 		
 		sc.close();
-
 	}
 
 }
